@@ -1,5 +1,6 @@
 import { PropsWithChildren } from "react";
 import "./styles/Landing.css";
+import { PERSONAL } from "../data/portfolioData";
 
 const Landing = ({ children }: PropsWithChildren) => {
   return (
@@ -9,20 +10,20 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="landing-intro">
             <h2>Hello! I'm</h2>
             <h1>
-              MONCY
+              {PERSONAL.firstName.toUpperCase()}
               <br />
-              <span>YOHANNAN</span>
+              <span>{PERSONAL.lastName.toUpperCase()}</span>
             </h1>
           </div>
           <div className="landing-info">
-            <h3>A Creative</h3>
+            <h3>{PERSONAL.title.split("|")[0]?.trim()}</h3>
             <h2 className="landing-info-h2">
-              <div className="landing-h2-1">Designer</div>
-              <div className="landing-h2-2">Developer</div>
+              <div className="landing-h2-1">Data Scientist</div>
+              <div className="landing-h2-2">Full Stack Developer</div>
             </h2>
             <h2>
-              <div className="landing-h2-info">Developer</div>
-              <div className="landing-h2-info-1">Designer</div>
+              <div className="landing-h2-info">Full Stack Developer</div>
+              <div className="landing-h2-info-1">Data Scientist</div>
             </h2>
           </div>
         </div>

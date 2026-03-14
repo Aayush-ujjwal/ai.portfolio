@@ -2,6 +2,9 @@ import * as THREE from "three";
 import { DRACOLoader, GLTF, GLTFLoader } from "three-stdlib";
 import { setCharTimeline, setAllTimeline } from "../../utils/GsapScroll";
 import { decryptFile } from "./decrypt";
+import { addCharacterAccessories } from "./characterAccessories";
+import { applyBodyGradient } from "./characterBodyGradient";
+import { addLaptopLogo } from "./laptopLogo";
 
 const setCharacter = (
   renderer: THREE.WebGLRenderer,
@@ -36,6 +39,9 @@ const setCharacter = (
                 mesh.frustumCulled = true;
               }
             });
+            addCharacterAccessories(character);
+            addLaptopLogo(character);
+            applyBodyGradient(character);
             resolve(gltf);
             setCharTimeline(character, camera);
             setAllTimeline();
