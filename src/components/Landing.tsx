@@ -19,10 +19,10 @@ const Landing = ({ children }: PropsWithChildren) => {
             <h3>{PERSONAL.title.split("|")[0]?.trim()}</h3>
             <h2 className="landing-info-h2">
               <div className="landing-h2-1">Data Scientist</div>
-              <div className="landing-h2-2">Full Stack Developer</div>
+              <div className="landing-h2-2">AI Engineer</div>
             </h2>
             <h2>
-              <div className="landing-h2-info">Full Stack Developer</div>
+              <div className="landing-h2-info">AI Engineer</div>
               <div className="landing-h2-info-1">Data Scientist</div>
             </h2>
           </div>
