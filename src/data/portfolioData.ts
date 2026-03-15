@@ -2,7 +2,7 @@ export const PERSONAL = {
   name: "Aayush Ujjwal",
   firstName: "Aayush",
   lastName: "Ujjwal",
-  title: "AI Engineer | Data Scientist | Full Stack Developer",
+  title: "AI Engineer | Data Scientist",
   location: "India",
   bio: "Hi, I'm Aayush Ujjwal, an AI Engineer and Data Scientist with 1+ year of industry experience building machine learning models and AI-powered applications. I specialize in predictive analytics, NLP, and data-driven systems that help businesses make smarter decisions. I enjoy transforming complex data into actionable insights and building scalable AI solutions using Python, TensorFlow, PyTorch, and modern data technologies.",
 };
