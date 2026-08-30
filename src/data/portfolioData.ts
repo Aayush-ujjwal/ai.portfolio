@@ -100,7 +100,7 @@ export const EXPERIENCE = [
   {
     role: "AI Engineer",
     company: "Devout Growth Media Pvt. Ltd.",
-    year: "Jan 2025 – Feb 2026",
+    year: "Jan 2025 – Present",
     description:
       "Python • Machine Learning • Pandas • NumPy • SQL • Power BI • Data Visualization • ETL Pipelines",
   },
